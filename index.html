@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 
 <head>
   <title>portfolio</title>
@@ -21,7 +21,7 @@
 
 
 
-  <div class="haut">
+  <div class="haut" id="haut">
     <h1>BIENVENUE!</h1>
     <h4>FRED PECH / <span>DEVELOPPEUR-WEB JUNIOR</span></h4>
 
@@ -39,7 +39,7 @@
     <!--menu-->
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="nav-link" href="#">ACCUEIL</a>
+      <a class="nav-link left" href="#">ACCUEIL</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -47,16 +47,16 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#propos">A PROPOS <span class="sr-only">(current)</span></a>
+            <a class="nav-link left" href="#propos">A PROPOS <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" a href="#port">PORTFOLIO</a>
+            <a class="nav-link left" a href="#port">PORTFOLIO</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" a href="#parcours">PARCOURS</a>
+            <a class="nav-link left" a href="#parcours">PARCOURS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" a href="#contact">CONTACT</a>
+            <a class="nav-link left" a href="#contact">CONTACT</a>
           </li>
         </ul>
       </div>
@@ -64,11 +64,15 @@
 
     <!--fin du menu-->
     <h1 id="propos"><strong> A PROPOS</strong></h1>
-    <p>Agé de 42 ans et passionné d'informatique et de nouvelles technologies,<br>
-      je travaille actuellement chez <a href="http://cyberun.org/pages/a-propos/">Cyberun </a>en tant que développeur
+    <p id="age">Agé de 42 ans et passionné d'informatique et de nouvelles technologies,<br>
+      je travaille actuellement chez <a href="http://cyberun.org/pages/a-propos/" target="_blank"><img
+          src="img/cyberun.png" class="cyb"></a> en tant que développeur
       web,<br>
       pour créer une application web pour la ville de Trois Bassins.</p>
-
+      <img src="img/fred.jpg" class="fred">
+      <p>Je suis également passionné de musique,<br> si vous aussi, vous pouvez venir visiter ce site <a href="#">la</a>.</p>
+    <a href="#haut"><i class="fas fa-chevron-circle-up"></i></a>
+    <hr>
     <div class="row">
       <div class="col-6 compet">
         <h2><strong>COMPETENCES</strong></h2>
@@ -103,23 +107,53 @@
         </div>
       </div>
 
-      <div class="col-6 exp">
-        <h2>EXPERIENCE</h2>
-        <h3>2018 - 2019</h3><p>Cyberun</p>
+      <div class="col-6 ">
+
+        <h2><strong>EXPERIENCE</strong></h2>
+        <div class="d-flex justify-content-around pt-5">
+          <h3 class="annee"><strong>2019</strong></h3>
+          <p class="cyber">Cyberun - Développeur web <br>création d'une application mobile</p>
+        </div>
+        <div class="d-flex justify-content-around pt-5">
+          <h3><strong>2018</strong></h3>
+          <p>Cyberun - Développeur web <br>Certification<br> coder et déployer une application web simple</p>
+        </div>
+        <div class="d-flex justify-content-around pt-5">
+          <h3><strong>2018</strong></h3>
+          <p>Cyberun - Développeur web <br>Certification<br> méthodes agiles de gestion et amorçage de projet</p>
+        </div>
       </div>
     </div>
+    <a href="#haut"><i class="fas fa-chevron-circle-up"></i></a>
+    <hr>
     <h1 id="port"><strong>PORTFOLIO</strong></h1>
     <div class="row">
-      <div class="col-4 port1">image</div>
-      <div class="col-4 port2">image</div>
-      <div class="col-4 port3">image</div>
+      <div class="col-4"><img src="img/site1.jpg" class="site1"></div>
+      <div class="col-4"><img src="img/site2.jpg" class="site1"></div>
+      <div class="col-4"><img src="img/site3.jpg" class="site1"></div>
     </div>
+    <a href="#haut"><i class="fas fa-chevron-circle-up"></i></a>
+    <hr>
     <h1 id="parcours"><strong>PARCOURS</strong></h1>
     <div class="row">
-      <div class="col-4 port1">image</div>
-      <div class="col-4 port2">image</div>
-      <div class="col-4 port3">image</div>
+      <div class="col-4 port1"><a href="http://cyberun.org/pages/a-propos/" target="_blank"><img src="img/cyberun.png"
+            class="sfr"></a>
+        <h2><strong>CYBERUN</strong></h2>
+        <p><strong>DEVELOPPEUR WEB</strong></p>
+
+      </div>
+      <div class=" col-4 port2"><a href="https://reunion.orange.fr/" target="_blank"><img src="img/orange.jpg"
+            class="sfr"></a>
+        <h2><strong>ORANGE</strong></h2>
+        <p><strong>COMMERCIAL EN BOUTIQUE</strong></p>
+      </div>
+      <div class="col-4 port3"><a href="https://www.sfr.re/" target="_blank"><img src="img/sfr.jpeg" class="sfr"></a>
+        <h2><strong>SFR</strong></h2>
+        <p><strong>CHARGE DE CLIENTELE</strong></p>
+      </div>
     </div>
+    <a href="#haut"><i class="fas fa-chevron-circle-up"></i></a>
+    <hr>
     <h1 id="contact"><strong>CONTACT</strong></h1>
     <!--formulaire-->
     <form class="needs-validation" novalidate>
