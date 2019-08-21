@@ -5,7 +5,7 @@ body{
 }
 
 
-.haut>h1{
+.header>h1{
     text-align: center;
     z-index: 200;
     font-size: 80px;
@@ -24,7 +24,7 @@ body{
     margin-bottom: 20px;
 }
 
-.haut>h4{
+.header>h4{
     text-align: center;
     z-index: 200;
     font-size: 50px;
@@ -54,7 +54,7 @@ margin-right: 35px;
 
 
 h1{
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     color: gold;
     
 }
@@ -73,7 +73,6 @@ h2{
 
 #age{
     margin-bottom: 100px;
-    background-color: rgb(1, 172, 198,);
 }
 
 p{
@@ -81,7 +80,7 @@ p{
     font-family: 'Roboto', sans-serif;
 }
 
-.haut{
+.header{
     width: 100%;
     height:800px;
     background-image: url("../img/1.jpg");
@@ -199,3 +198,21 @@ hr{
    margin-top:50px;
 }
 
+.footer{
+    background-color: aqua;
+    width: 100%;
+    height: 200px;
+}
+
+.fa-facebook{
+    color: dodgerblue;
+}
+
+li{
+    display: inline;
+    margin-left: 50px;
+}
+
+ul{
+    margin-top: 30px;
+}
